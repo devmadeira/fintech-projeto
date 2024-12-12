@@ -1,0 +1,95 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6c63ff, #574ae8); /* Gradiente suave no fundo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Garante que ocupe a altura da tela */
+}
+
+/* Container centralizado */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+}
+
+/* Card de login */
+.login-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Seção da imagem */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-icon {
+    width: 80px;
+    height: auto;
+    max-width: 100%; /* Garante que a imagem se ajuste proporcionalmente */
+}
+
+/* Título */
+.login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 25px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px #6c63ff;
+}
+
+/* Lembre-me e esqueceu senha */
+.forgot-password {
+    color: #6c63ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+
+/* Botão de login */
+button[type="submit"] {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #574ae8;
+}
